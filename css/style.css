@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -124,6 +124,10 @@ iframe {
 .border_right {
 	border-right: 1px dotted #ccc;
 	padding-right: 20px;
+	float: left;
+	display: inline-block;
+	width: 33.333%;
+	padding: 20px;
 }
 
 .thumbs_up {
@@ -219,6 +223,7 @@ iframe {
 	right: 3px;
 	width: 40px;
 	z-index: 1;
+	line-height: 1px;
 }
 
 	a.fbook, a.twitt, a.gplus {
@@ -302,4 +307,40 @@ footer {
 		text-decoration: underline;
 	}
 
+/******** Features *******/
+
+.huge {
+	display: inline-block;
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+.large {
+	display: inline-block;
+	width: 64.666%;
+	height: auto;
+	float:left;
+}
+
+.tall {
+	display: inline-block;
+	width: 31.333%;
+	height: auto;
+	float: left;
+}
+
+.small {
+	display: inline-block;
+	width: 31.333%;
+	float: left;
+}
+
+section.feat {
+	margin: 9px;
+}
+
+h2.milk_text {
+	padding: 9px;
+}
 /* code examples copyright Jonathan Grover 2012 */
